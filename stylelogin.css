@@ -2,7 +2,7 @@
 
 body {
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
-  background: url(assets/fundo-login.jpg) no-repeat center center fixed;
+  background: url(fundologin.jpg) no-repeat center center fixed;
   background-size: cover;
   margin: 0;
   padding: 0;
@@ -108,37 +108,37 @@ button:hover {
   text-decoration: underline;
 }
 
----
+
 
 /* Responsividade
 
 As seguintes media queries ajustam os estilos para diferentes tamanhos de tela, com foco em dispositivos como iPhones XR, 11, 12, etc., para garantir um ajuste perfeito.
 
 ```css
-/* Para tamanhos de tablet comuns e telefones maiores em paisagem (ex: 769px até 481px) */
+ Para tamanhos de tablet comuns e telefones maiores em paisagem (ex: 769px até 481px) */
 @media (max-width: 768px) {
   .login-container {
-    padding: 2rem; /* Preenchimento ligeiramente reduzido */
-    margin: 1rem auto; /* Mantém centralizado com margem superior/inferior */
+    padding: 2rem;
+    margin: 1rem auto;
   }
 
   .logo {
-    width: 180px; /* Logo ligeiramente menor */
-    max-width: 60%; /* Encolhimento mais agressivo */
+    width: 180px;
+    max-width: 60%;
   }
 
   input {
-    padding: 10px; /* Preenchimento de input ligeiramente menor */
+    padding: 10px;
     font-size: 14px;
   }
 
   button {
-    padding: 10px; /* Preenchimento de botão ligeiramente menor */
+    padding: 10px;
     font-size: 15px;
   }
 
   .mensagem1 {
-    font-size: 0.9rem; /* Fonte menor para mensagens */
+    font-size: 0.9rem;
   }
 
   .signup-link {
